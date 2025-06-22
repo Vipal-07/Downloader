@@ -17,5 +17,5 @@ app.get('/', (req, res) => {
 app.post('/video-info', userController.getVideoInfo);
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log("Server is running on port ");
 })
