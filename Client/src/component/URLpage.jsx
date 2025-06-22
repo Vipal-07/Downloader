@@ -12,7 +12,7 @@ export default function URLpage() {
         e.preventDefault();
         setLoading(true);
         setError('');
-        const sourceURL = "http://localhost:3000/video-info"; // Adjust the URL as needed
+        const sourceURL = "https://downloader-xxo1.onrender.com/video-info"; // Adjust the URL as needed
         try {
             const response = await axios.post(sourceURL , { url: urlData })
              navigate('/download', { state: { videoInfo: response.data, url: urlData } })
