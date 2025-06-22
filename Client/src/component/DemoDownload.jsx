@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-export default function DownloadPage() {
+export default function DemoDownload() {
     const location = useLocation();
     const navigate = useNavigate();
     const { videoInfo, url } = location.state || {};
