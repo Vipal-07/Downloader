@@ -12,9 +12,9 @@ export default function URLpage() {
         e.preventDefault();
         setLoading(true);
         setError('');
-        const sourceURL = "https://downloader-xxo1.onrender.com/video-info"; // Adjust the URL as needed
+        const sourceURL = "https://downloader-xxo1.onrender.com"; // Adjust the URL as needed
         try {
-            const response = await axios.post(sourceURL , { url: urlData })
+            const response = await axios.post(sourceURL + "/video-info" , { url: urlData })
              navigate('/download', { state: { videoInfo: response.data, url: urlData } })
             console.log(response.data);
         } catch (error) {
