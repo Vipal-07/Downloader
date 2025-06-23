@@ -1,5 +1,4 @@
 const youtubedl = require('youtube-dl-exec');
-const { spawn } = require('child_process');
 
 module.exports.getVideoInfo = async (req, res) => {
     const { url } = req.body;
