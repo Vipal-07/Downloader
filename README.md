@@ -71,7 +71,7 @@ Downloader/
    ```sh
    npm run dev
    ```
-4. The app will be available at `http://localhost:5173` (or as indicated in the terminal).
+4. The app will be available at `https://downloader-url.onrender.com` (or as indicated in the terminal).
 
 ### Backend Setup
 
@@ -87,7 +87,7 @@ Downloader/
    ```sh
    npm start
    ```
-4. The backend runs on `http://localhost:3000` by default.
+4. The backend runs on `https://downloader-xxo1.onrender.com` by default.
 
 ---
 
